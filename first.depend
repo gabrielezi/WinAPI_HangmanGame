@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1607453313 source:d:\codeblocks\first\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu.h"
+	<windowsx.h>
+	<stdio.h>
+
+1602135545 d:\codeblocks\first\menu.h
+
+1602132381 source:d:\codeblocks\first\menu.rc
+	<windows.h>
+	"menu.h"
+

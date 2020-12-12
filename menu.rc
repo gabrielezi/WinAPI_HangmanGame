@@ -1,0 +1,21 @@
+#include <windows.h>
+#include "menu.h"
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+END
+
+ID_IKONA ICON "Hangman-Game.ico"
+
+MYDIALOG  DIALOG 50,50,300,200
+STYLE WS_CAPTION | WS_POPUP|WS_SYSMENU|DS_MODALFRAME
+CAPTION "My Dialog"
+{
+    LTEXT "Descpription of", TEXT_FIELD,5,5,130,10
+    DEFPUSHBUTTON "&Close", DIALOG_BUTTON, 5,145,60,15,WS_TABSTOP
+}

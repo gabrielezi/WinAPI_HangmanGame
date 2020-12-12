@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1607806689 source:d:\codeblocks\hangman\main.cpp
+	<tchar.h>
+	<windows.h>
+	"menu.h"
+	<windowsx.h>
+	<stdio.h>
+	<sstream>
+	<ctime>
+
+1607778558 d:\codeblocks\hangman\menu.h
+
+1607782309 source:d:\codeblocks\hangman\menu.rc
+	<windows.h>
+	"menu.h"
+
